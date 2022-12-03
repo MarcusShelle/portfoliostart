@@ -1,0 +1,144 @@
+
+html{ 
+        width: 960px;
+}
+
+
+
+
+    .navbar li{
+        background-color:white;
+        color:white;
+        font-size:70px;
+        font-family:fantasy:'Courier New', Courier, monospace
+
+        
+        
+        
+        cursor:pointer;
+    }
+li{
+
+    display: inline;
+    margin-left: 100px;
+}    
+
+ 	body{
+        background-color:white;
+    }
+
+  .sections{
+   
+  }  
+    
+  
+
+
+.div1{
+    display: flex;
+    border: 20px solid orange;
+    height:300px;
+    flex-direction: row;
+    position: relative;
+    background-color: lightgray;
+    padding: 30px;
+    border-radius: 30px;
+    width: 1400px;
+    margin: right 50px; ;
+
+}  
+    
+
+
+.div2{
+    display: flex;
+    border: 3px solid rgb(98, 0, 255);
+    height: fit-content;
+    flex-direction: column;
+    position: relative;
+    background-color: lightgray;
+    padding: 30px;
+    border-radius: 30px;
+    width: 1400px;
+    margin-right: 1000px;;
+    flex-wrap:wrap;
+    
+  }  
+
+
+    .div3{display: flex; 
+    border: 3px solid rgb(34, 255, 0);
+    height: fit-content;
+    flex-direction: row;
+    position:relative;
+    background-color: lightgray;
+    padding: 30px;
+    border-radius: 30px;
+    width: fit-content;
+    top:100%;
+  }  
+
+
+
+
+
+
+
+
+
+  .img-ppic {
+    width:700px;
+    margin-left: 700px;;
+}
+
+body{
+    
+
+
+
+}
+
+
+h1{
+    /* Fullstack developer text */
+    font-size: 100px;
+}
+
+
+h2 {
+    /* about me header text */
+    
+    font-size: 60px;
+    
+}
+
+
+h3{
+    font-size: 60px;
+}
+
+
+
+
+
+button {
+    background-color:orange;
+    height:100px;
+    width:200px;
+    border:blue;
+    font-size:40px;
+    cursor:pointer;
+    font-weight:bold;
+    box-shadow: 10px 10px 10px black;
+    transition:box-shadow 0.15s;
+    display: inline;
+}
+
+
+
+@media screen {
+    min-width: 375;
+
+    
+}
+    
