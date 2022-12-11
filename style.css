@@ -7,29 +7,30 @@ html{
 
 
     .navbar li{
-        background-color:white;
+        text-align: center;
+        display: inline-block;
+        background-color:rgb(94, 143, 106);;
         color:white;
         font-size:70px;
-        font-family:fantasy:'Courier New', Courier, monospace
+        font-family:fantasy'Courier New', Courier, monospace
+        
+        
 
         
         
         
-        cursor:pointer;
+        cursor pointer;
     }
-li{
+    
 
-    display: inline;
-    margin-left: 100px;
-}    
+
 
  	body{
-        background-color:white;
+        background-color:rgb(94, 143, 106);
     }
 
-  .sections{
-   
-  }  
+  
+  
     
   
 
@@ -40,7 +41,7 @@ li{
     height:300px;
     flex-direction: row;
     position: relative;
-    background-color: lightgray;
+    background-color:rgb(94, 143, 106);
     padding: 30px;
     border-radius: 30px;
     width: 1400px;
@@ -87,21 +88,17 @@ li{
 
 
   .img-ppic {
-    width:700px;
-    margin-left: 700px;;
-}
-
-body{
+    width:500px;
+    height: 500px;
     
-
-
-
 }
+
 
 
 h1{
     /* Fullstack developer text */
     font-size: 100px;
+    
 }
 
 
@@ -137,7 +134,7 @@ button {
 
 
 @media screen {
-    min-width: 375;
+    min-width: ; 375;
 
     
 }
